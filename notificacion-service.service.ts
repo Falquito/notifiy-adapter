@@ -1,6 +1,5 @@
-import type { NotificationProvider } from "../../types/notificacionProvider";
+import type { NotificationProvider } from "../src/types/notificacionProvider";
 import { providers, type ProviderName } from "./providers";
-
 export class NotificationService {
 
     private provider: NotificationProvider;

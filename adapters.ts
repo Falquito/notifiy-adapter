@@ -1,6 +1,6 @@
 import { sileo } from 'sileo';
 import { message as antdMessage } from 'antd';
-import type { NotificationProvider } from '../../types/notificacionProvider';
+import type { NotificationProvider } from '../src/types/notificacionProvider';
 import { duration, titleError, titleInfo, titleSuccess, titleWarning } from './constants';
 export const sileoAdapter: NotificationProvider = {
     success: (msg) => sileo.success({ title: titleSuccess, description: msg, duration: duration }),
